@@ -1,0 +1,127 @@
+body{
+    background-color:skyblue ;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+}
+/*
+
+.home ul {
+    list-style-type: none; 
+    padding: 0;
+}
+.home li {
+    margin-bottom: 10px;
+}
+.home a {
+    display: inline-block; 
+    padding: 10px 15px;
+    border: 2px solid gold; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    color: purple; 
+    font-size: 70px;
+   
+}
+.home a:hover {
+    background-color: gold;
+    color: white;
+}
+    */
+.headline{
+    font-size:100px;
+    font-weight: 800;
+}
+    
+body.index-page {
+    text-align: center;
+    padding-top: 5vh;
+}
+
+body.index-page .home {
+    display: inline-block; 
+}
+
+body.index-page .home ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+body.index-page .home li {
+    margin-bottom: 12px;
+}
+
+body.index-page .home a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid gold;
+    border-radius: 5px;
+    text-decoration: none;
+    color: purple;
+    min-width: 160px;
+    font-size: 70px;
+}
+
+body.index-page .home a:hover {
+    background-color: gold;
+}
+
+    
+
+h1,h2,h3,h5{
+    color: rgb(23, 131, 7);
+    text-align: center;
+    
+}
+img{
+    display: block;
+    margin:auto;
+    width:50%;
+    
+}
+
+.btn{
+   display: block;
+  width: 100px;
+  margin: 20px auto;
+  padding: 8px 16px;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+    
+}
+.box-1,.box-2{
+    color:black;
+    display:inline-block;
+    padding: 15px;
+
+   width: 40%;
+   box-sizing: border-box;
+   vertical-align: top;
+   
+  
+}
+.box-1{
+    background-color: rgb(228, 209, 170);
+    border:1px solid black;
+    
+
+} 
+.box-2{
+    margin-left:  200px; ;
+}
+span{
+    font-size: 100px;
+    font-weight: 800;
+    color:green;
+}
+.box-1 ul,.box-2 ol{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
