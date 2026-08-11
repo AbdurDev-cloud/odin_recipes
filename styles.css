@@ -37,7 +37,7 @@ p{
     
 body.index-page {
     text-align: center;
-    padding-top: 5vh;
+    padding-top: 5px;
 }
 
 body.index-page .home {
@@ -67,6 +67,7 @@ body.index-page .home a {
 
 body.index-page .home a:hover {
     background-color: gold;
+    color: aliceblue;
 }
 
     
